@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.pem
+*.key
+
+# Test
+coverage/
+*.test.tmp
+
+# gem2 local
+.gem-squared/work-plan/*.tmp
+
+# ───── Confidential / internal — not for public repo ───────────────
+CLAUDE.md
+README-internal.md
+Doc/
+Doc/*
+.gem-squared/
+.gem-squared/*
+.claude/
+.claude/*

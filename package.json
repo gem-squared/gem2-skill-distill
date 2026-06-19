@@ -1,0 +1,41 @@
+{
+  "name": "@gem_squared/gem2-skill-distill",
+  "version": "0.1.0",
+  "description": "Extract CONTRACTs from existing code and skills — distill overlapping implementations into essential formal contracts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "gem2-skill-distill": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "lint": "eslint src/",
+    "test": "vitest"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "contracts",
+    "tpmn",
+    "extraction",
+    "distill",
+    "formalization",
+    "gem2"
+  ],
+  "author": "David Seo <david@gemsquared.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gem-squared/gem2-skill-distill"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.0.0",
+    "vitest": "^1.0.0"
+  }
+}
